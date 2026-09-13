@@ -1,0 +1,20 @@
+[project]
+name = "level-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sanket Arekar", email = "sanketarekar09@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+level-1 = "level_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
